@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Profile</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <div>
+                <p class="subtitle">Personal Profile</p>
+                <h1>Joshua Cloud Macapagal</h1>
+                <p class="tagline">Information Systems Student | Technology Enthusiast</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#bio">Bio</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <article>
+
+            <!-- About Me -->
+            <section id="bio" data-role="student" data-interest="technology">
+                <h2>About Me</h2>
+
+                <picture>
+                    <!-- Put your photo in the same folder and name it profile.jpg -->
+                    <img
+                        class="profile-image"
+                        src="profile.jpg"
+                        alt="Profile picture of Joshua Cloud Macapagal">
+                </picture>
+
+                <p>
+                    Hello! My name is <strong>Joshua Cloud Macapagal</strong>. I am a BSIS - 3A student who is
+                    interested in technology, web development, and learning new skills.
+                </p>
+
+                <p>
+                    I enjoy building websites and exploring how technology can make everyday tasks easier,
+                    especially in business settings. I'm always looking for chances to learn something new
+                    and work with others on projects.
+                </p>
+            </section>
+
+            <!-- Hobbies -->
+            <section id="hobbies" data-role="student" data-interest="hobbies">
+                <h2>My Hobbies</h2>
+
+                <ul>
+                    <li>[Hobby 1]</li>
+                    <li>[Hobby 2]</li>
+                    <li>[Hobby 3]</li>
+                    <li>[Hobby 4]</li>
+                </ul>
+            </section>
+
+            <!-- Sidebar -->
+            <aside>
+                <h3>Fun Facts</h3>
+
+                <p>[Write a fun fact about yourself here.]</p>
+
+                <p>[Write another fun fact, such as why you chose your course.]</p>
+            </aside>
+
+            <!-- Achievements -->
+            <section id="achievements">
+                <h2>Achievements</h2>
+
+                <details>
+                    <summary>View My Achievements</summary>
+
+                    <ul>
+                        <li>[Achievement 1]</li>
+                        <li>[Achievement 2]</li>
+                        <li>[Achievement 3]</li>
+                    </ul>
+                </details>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <h2>Contact Me</h2>
+
+                <form action="#" method="post">
+
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Joshua Cloud Macapagal"
+                        required>
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="yourname@example.com"
+                        required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="09XXXXXXXXX"
+                        pattern="[0-9]{11}"
+                        required>
+
+                    <label for="date">Preferred Contact Date:</label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required>
+
+                    <label for="color">Favorite Color:</label>
+                    <input
+                        type="color"
+                        id="color"
+                        name="color"
+                        value="#2563eb">
+
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Joshua Cloud Macapagal. All Rights Reserved.</p>
+
+        <div class="social-links">
+            <!-- Replace # with the link to your social media profile -->
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer">
+                Facebook
+            </a>
+
+            <a href="#bio">Back to Top &uarr;</a>
+        </div>
+    </footer>
+
+</body>
+</html>
 
